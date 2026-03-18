@@ -1,0 +1,259 @@
+{
+  "app": {
+    "name": "하늘AI",
+    "tagline": "주권형 언어 모델 평가 및 배포 플랫폼",
+    "description": "비영어권 언어를 위한 AI 모델을 문화적 이해와 함께 평가, 벤치마크, 배포합니다"
+  },
+  "nav": {
+    "home": "홈",
+    "dashboard": "대시보드",
+    "scorecard": "AI 준비도 평가표",
+    "evaluation": "평가 스위트",
+    "searchDemo": "검색 통합",
+    "quiz": "문화 퀴즈",
+    "localization": "모델 현지화",
+    "bilingual": "이중 언어 평가",
+    "compliance": "규정 준수 검사",
+    "compare": "모델 비교",
+    "settings": "설정",
+    "language": "언어"
+  },
+  "home": {
+    "hero": {
+      "title": "모든 언어를 위한 주권형 AI",
+      "subtitle": "현지 언어와 문화를 진정으로 이해하는 언어 모델을 평가, 벤치마크, 배포하세요",
+      "cta": "시작하기",
+      "demo": "데모 보기"
+    },
+    "features": {
+      "title": "플랫폼 기능",
+      "scorecard": {
+        "title": "AI 준비도 평가표",
+        "description": "대상 언어에 대한 10가지 핵심 차원에서 모델의 역량을 평가합니다"
+      },
+      "evaluation": {
+        "title": "평가 스위트",
+        "description": "한국어, 일본어, 힌디어, 아랍어 문화 지식을 위한 맞춤 벤치마크"
+      },
+      "search": {
+        "title": "검색 통합",
+        "description": "LLM이 스니펫 생성과 쿼리 이해로 검색을 어떻게 지원하는지 확인하세요"
+      },
+      "quiz": {
+        "title": "문화 퀴즈 생성기",
+        "description": "언어별 문화 이해도를 테스트하는 퀴즈를 자동 생성합니다"
+      },
+      "localization": {
+        "title": "모델 현지화",
+        "description": "가이드 워크플로우를 통해 대상 언어에 맞게 기본 모델을 미세 조정합니다"
+      },
+      "bilingual": {
+        "title": "이중 언어 평가",
+        "description": "번역, 코드 스위칭, 혼합 언어 처리 능력을 테스트합니다"
+      },
+      "compliance": {
+        "title": "규정 준수 검사기",
+        "description": "모델이 국가별 데이터 주권 요구 사항을 충족하는지 확인합니다"
+      },
+      "compare": {
+        "title": "모델 비교",
+        "description": "현지 언어 작업에서 주권형 모델과 글로벌 모델을 비교합니다"
+      }
+    },
+    "stats": {
+      "languages": "지원 언어",
+      "models": "평가된 모델",
+      "benchmarks": "벤치마크 실행 횟수",
+      "countries": "지원 국가"
+    }
+  },
+  "scorecard": {
+    "title": "주권형 AI 준비도 평가표",
+    "subtitle": "10가지 차원에서 특정 언어에 대한 모델의 역량을 평가합니다",
+    "selectModel": "모델 선택",
+    "selectLanguage": "대상 언어 선택",
+    "runEvaluation": "평가 실행",
+    "overall": "전체 점수",
+    "dimensions": {
+      "fluency": "언어 유창성",
+      "grammar": "문법 정확도",
+      "vocabulary": "어휘 범위",
+      "cultural": "문화 인식",
+      "idioms": "관용어 이해",
+      "formality": "격식 수준",
+      "technical": "전문 용어",
+      "creative": "창작 글쓰기",
+      "reasoning": "논리적 추론",
+      "safety": "안전성 및 편향"
+    },
+    "grades": {
+      "excellent": "우수",
+      "good": "양호",
+      "fair": "보통",
+      "poor": "미흡",
+      "failing": "부족"
+    }
+  },
+  "evaluation": {
+    "title": "언어 평가 스위트",
+    "subtitle": "문화 및 언어 지식을 위한 맞춤 벤치마크",
+    "selectLanguage": "언어 선택",
+    "categories": "평가 카테고리",
+    "runBenchmark": "벤치마크 실행",
+    "results": "결과",
+    "history": "역사 및 전통",
+    "literature": "문학 및 예술",
+    "customs": "사회 관습",
+    "cuisine": "음식 및 요리",
+    "geography": "지리 및 장소",
+    "politics": "정부 및 정치",
+    "religion": "종교 및 철학",
+    "media": "미디어 및 엔터테인먼트",
+    "score": "점수",
+    "passed": "합격",
+    "failed": "불합격",
+    "total": "총 문항 수"
+  },
+  "search": {
+    "title": "검색 통합 데모",
+    "subtitle": "LLM이 스니펫 생성과 쿼리 이해로 검색을 어떻게 지원하는지 확인하세요",
+    "placeholder": "검색어를 입력하세요...",
+    "search": "검색",
+    "queryAnalysis": "쿼리 분석",
+    "intent": "감지된 의도",
+    "language": "쿼리 언어",
+    "entities": "추출된 개체",
+    "results": "검색 결과",
+    "snippet": "AI 생성 스니펫",
+    "relevance": "관련성 점수",
+    "source": "출처"
+  },
+  "quiz": {
+    "title": "문화 지식 퀴즈",
+    "subtitle": "문화 이해도를 테스트하는 자동 생성 퀴즈",
+    "selectLanguage": "문화/언어 선택",
+    "difficulty": "난이도",
+    "easy": "쉬움",
+    "medium": "보통",
+    "hard": "어려움",
+    "generate": "퀴즈 생성",
+    "question": "문제",
+    "of": "/",
+    "submit": "답변 제출",
+    "next": "다음 문제",
+    "results": "퀴즈 결과",
+    "correct": "정답",
+    "incorrect": "오답",
+    "score": "당신의 점수",
+    "tryAgain": "다시 시도",
+    "explanation": "해설"
+  },
+  "localization": {
+    "title": "모델 현지화 파이프라인",
+    "subtitle": "가이드 워크플로우를 통해 대상 언어에 맞게 기본 모델을 미세 조정합니다",
+    "steps": {
+      "select": "기본 모델 선택",
+      "configure": "대상 언어 설정",
+      "data": "훈련 데이터 준비",
+      "train": "모델 미세 조정",
+      "evaluate": "결과 평가",
+      "deploy": "모델 배포"
+    },
+    "baseModel": "기본 모델",
+    "targetLanguage": "대상 언어",
+    "dataSize": "훈련 데이터 크기",
+    "epochs": "훈련 에폭 수",
+    "learningRate": "학습률",
+    "startTraining": "미세 조정 시작",
+    "progress": "훈련 진행률",
+    "status": {
+      "idle": "준비 완료",
+      "preparing": "데이터 준비 중...",
+      "training": "훈련 중...",
+      "evaluating": "평가 중...",
+      "complete": "완료",
+      "failed": "실패"
+    }
+  },
+  "bilingual": {
+    "title": "이중 언어 평가",
+    "subtitle": "번역, 코드 스위칭, 혼합 언어 처리 능력을 테스트합니다",
+    "sourceLang": "원본 언어",
+    "targetLang": "대상 언어",
+    "testTypes": {
+      "translation": "번역 품질",
+      "codeSwitch": "코드 스위칭",
+      "mixed": "혼합 언어 입력",
+      "cultural": "문화 적응"
+    },
+    "input": "입력 텍스트",
+    "output": "모델 출력",
+    "score": "품질 점수",
+    "run": "평가 실행",
+    "metrics": {
+      "bleu": "BLEU 점수",
+      "comet": "COMET 점수",
+      "human": "인간 평가"
+    }
+  },
+  "compliance": {
+    "title": "정부 규정 준수 검사기",
+    "subtitle": "모델이 국가별 데이터 주권 요구 사항을 충족하는지 확인합니다",
+    "selectCountry": "국가 선택",
+    "selectModel": "모델 선택",
+    "runCheck": "규정 준수 검사 실행",
+    "status": {
+      "compliant": "준수",
+      "partial": "부분 준수",
+      "nonCompliant": "미준수",
+      "unknown": "알 수 없음"
+    },
+    "categories": {
+      "dataResidency": "데이터 거주",
+      "privacy": "개인정보 보호 규정",
+      "contentFiltering": "콘텐츠 필터링",
+      "transparency": "투명성 요구 사항",
+      "audit": "감사 추적",
+      "localEntity": "현지 법인 요구 사항"
+    },
+    "report": "규정 준수 보고서",
+    "recommendation": "권장 사항"
+  },
+  "compare": {
+    "title": "성능 대시보드",
+    "subtitle": "현지 언어 작업에서 주권형 모델과 글로벌 모델을 비교합니다",
+    "selectModels": "비교할 모델 선택",
+    "selectTask": "작업 선택",
+    "tasks": {
+      "qa": "질의응답",
+      "summarization": "요약",
+      "translation": "번역",
+      "sentiment": "감정 분석",
+      "ner": "개체명 인식",
+      "generation": "텍스트 생성"
+    },
+    "metrics": "성능 지표",
+    "latency": "지연 시간 (ms)",
+    "accuracy": "정확도 (%)",
+    "cost": "1K 토큰당 비용",
+    "overall": "전체 점수"
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "편집",
+    "view": "상세 보기",
+    "back": "뒤로",
+    "next": "다음",
+    "previous": "이전",
+    "submit": "제출",
+    "reset": "초기화",
+    "download": "다운로드",
+    "export": "내보내기",
+    "noData": "데이터가 없습니다",
+    "selectOption": "옵션을 선택하세요"
+  }
+}

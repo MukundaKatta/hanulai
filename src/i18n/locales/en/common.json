@@ -1,0 +1,259 @@
+{
+  "app": {
+    "name": "HanulAI",
+    "tagline": "Sovereign Language Model Evaluation & Deployment Platform",
+    "description": "Evaluate, benchmark, and deploy AI models for non-English languages with cultural awareness"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "scorecard": "AI Readiness Scorecard",
+    "evaluation": "Evaluation Suite",
+    "searchDemo": "Search Integration",
+    "quiz": "Cultural Quiz",
+    "localization": "Model Localization",
+    "bilingual": "Bilingual Evaluation",
+    "compliance": "Compliance Checker",
+    "compare": "Model Comparison",
+    "settings": "Settings",
+    "language": "Language"
+  },
+  "home": {
+    "hero": {
+      "title": "Sovereign AI for Every Language",
+      "subtitle": "Evaluate, benchmark, and deploy language models that truly understand local languages and cultures",
+      "cta": "Get Started",
+      "demo": "View Demo"
+    },
+    "features": {
+      "title": "Platform Features",
+      "scorecard": {
+        "title": "AI Readiness Scorecard",
+        "description": "Evaluate a model's capability across 10 key dimensions for any target language"
+      },
+      "evaluation": {
+        "title": "Evaluation Suite",
+        "description": "Custom benchmarks for Korean, Japanese, Hindi, and Arabic cultural knowledge"
+      },
+      "search": {
+        "title": "Search Integration",
+        "description": "See how LLMs power search with snippet generation and query understanding"
+      },
+      "quiz": {
+        "title": "Cultural Quiz Generator",
+        "description": "Auto-generate quizzes testing cultural understanding per language"
+      },
+      "localization": {
+        "title": "Model Localization",
+        "description": "Fine-tune base models for target languages with guided workflows"
+      },
+      "bilingual": {
+        "title": "Bilingual Evaluation",
+        "description": "Test translation, code-switching, and mixed-language handling"
+      },
+      "compliance": {
+        "title": "Compliance Checker",
+        "description": "Verify models meet data sovereignty requirements per country"
+      },
+      "compare": {
+        "title": "Model Comparison",
+        "description": "Compare sovereign vs. global models on local-language tasks"
+      }
+    },
+    "stats": {
+      "languages": "Languages Supported",
+      "models": "Models Evaluated",
+      "benchmarks": "Benchmarks Run",
+      "countries": "Countries Covered"
+    }
+  },
+  "scorecard": {
+    "title": "Sovereign AI Readiness Scorecard",
+    "subtitle": "Evaluate a model's capability in a specific language across 10 dimensions",
+    "selectModel": "Select Model",
+    "selectLanguage": "Select Target Language",
+    "runEvaluation": "Run Evaluation",
+    "overall": "Overall Score",
+    "dimensions": {
+      "fluency": "Language Fluency",
+      "grammar": "Grammar Accuracy",
+      "vocabulary": "Vocabulary Coverage",
+      "cultural": "Cultural Awareness",
+      "idioms": "Idiom Understanding",
+      "formality": "Formality Registers",
+      "technical": "Technical Terminology",
+      "creative": "Creative Writing",
+      "reasoning": "Logical Reasoning",
+      "safety": "Safety & Bias"
+    },
+    "grades": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor",
+      "failing": "Failing"
+    }
+  },
+  "evaluation": {
+    "title": "Language Evaluation Suite",
+    "subtitle": "Custom benchmarks for cultural and linguistic knowledge",
+    "selectLanguage": "Select Language",
+    "categories": "Evaluation Categories",
+    "runBenchmark": "Run Benchmark",
+    "results": "Results",
+    "history": "History & Traditions",
+    "literature": "Literature & Arts",
+    "customs": "Social Customs",
+    "cuisine": "Food & Cuisine",
+    "geography": "Geography & Places",
+    "politics": "Government & Politics",
+    "religion": "Religion & Philosophy",
+    "media": "Media & Entertainment",
+    "score": "Score",
+    "passed": "Passed",
+    "failed": "Failed",
+    "total": "Total Questions"
+  },
+  "search": {
+    "title": "Search Integration Demo",
+    "subtitle": "See how an LLM powers search with snippet generation and query understanding",
+    "placeholder": "Enter your search query...",
+    "search": "Search",
+    "queryAnalysis": "Query Analysis",
+    "intent": "Detected Intent",
+    "language": "Query Language",
+    "entities": "Extracted Entities",
+    "results": "Search Results",
+    "snippet": "AI-Generated Snippet",
+    "relevance": "Relevance Score",
+    "source": "Source"
+  },
+  "quiz": {
+    "title": "Cultural Knowledge Quiz",
+    "subtitle": "Auto-generated quizzes testing cultural understanding",
+    "selectLanguage": "Select Culture/Language",
+    "difficulty": "Difficulty",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "generate": "Generate Quiz",
+    "question": "Question",
+    "of": "of",
+    "submit": "Submit Answer",
+    "next": "Next Question",
+    "results": "Quiz Results",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "score": "Your Score",
+    "tryAgain": "Try Again",
+    "explanation": "Explanation"
+  },
+  "localization": {
+    "title": "Model Localization Pipeline",
+    "subtitle": "Fine-tune a base model for a target language with guided workflow",
+    "steps": {
+      "select": "Select Base Model",
+      "configure": "Configure Target Language",
+      "data": "Prepare Training Data",
+      "train": "Fine-Tune Model",
+      "evaluate": "Evaluate Results",
+      "deploy": "Deploy Model"
+    },
+    "baseModel": "Base Model",
+    "targetLanguage": "Target Language",
+    "dataSize": "Training Data Size",
+    "epochs": "Training Epochs",
+    "learningRate": "Learning Rate",
+    "startTraining": "Start Fine-Tuning",
+    "progress": "Training Progress",
+    "status": {
+      "idle": "Ready",
+      "preparing": "Preparing Data...",
+      "training": "Training...",
+      "evaluating": "Evaluating...",
+      "complete": "Complete",
+      "failed": "Failed"
+    }
+  },
+  "bilingual": {
+    "title": "Bilingual Evaluation",
+    "subtitle": "Test translation, code-switching, and mixed-language handling",
+    "sourceLang": "Source Language",
+    "targetLang": "Target Language",
+    "testTypes": {
+      "translation": "Translation Quality",
+      "codeSwitch": "Code-Switching",
+      "mixed": "Mixed-Language Input",
+      "cultural": "Cultural Adaptation"
+    },
+    "input": "Input Text",
+    "output": "Model Output",
+    "score": "Quality Score",
+    "run": "Run Evaluation",
+    "metrics": {
+      "bleu": "BLEU Score",
+      "comet": "COMET Score",
+      "human": "Human Evaluation"
+    }
+  },
+  "compliance": {
+    "title": "Government Compliance Checker",
+    "subtitle": "Verify models meet data sovereignty requirements per country",
+    "selectCountry": "Select Country",
+    "selectModel": "Select Model",
+    "runCheck": "Run Compliance Check",
+    "status": {
+      "compliant": "Compliant",
+      "partial": "Partially Compliant",
+      "nonCompliant": "Non-Compliant",
+      "unknown": "Unknown"
+    },
+    "categories": {
+      "dataResidency": "Data Residency",
+      "privacy": "Privacy Regulations",
+      "contentFiltering": "Content Filtering",
+      "transparency": "Transparency Requirements",
+      "audit": "Audit Trail",
+      "localEntity": "Local Entity Requirement"
+    },
+    "report": "Compliance Report",
+    "recommendation": "Recommendations"
+  },
+  "compare": {
+    "title": "Performance Dashboard",
+    "subtitle": "Compare sovereign models vs. global models on local-language tasks",
+    "selectModels": "Select Models to Compare",
+    "selectTask": "Select Task",
+    "tasks": {
+      "qa": "Question Answering",
+      "summarization": "Summarization",
+      "translation": "Translation",
+      "sentiment": "Sentiment Analysis",
+      "ner": "Named Entity Recognition",
+      "generation": "Text Generation"
+    },
+    "metrics": "Performance Metrics",
+    "latency": "Latency (ms)",
+    "accuracy": "Accuracy (%)",
+    "cost": "Cost per 1K tokens",
+    "overall": "Overall Score"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View Details",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "reset": "Reset",
+    "download": "Download",
+    "export": "Export",
+    "noData": "No data available",
+    "selectOption": "Select an option"
+  }
+}

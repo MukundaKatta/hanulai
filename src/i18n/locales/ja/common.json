@@ -1,0 +1,259 @@
+{
+  "app": {
+    "name": "HanulAI",
+    "tagline": "主権型言語モデル評価・展開プラットフォーム",
+    "description": "非英語言語向けAIモデルを文化的理解とともに評価・ベンチマーク・展開します"
+  },
+  "nav": {
+    "home": "ホーム",
+    "dashboard": "ダッシュボード",
+    "scorecard": "AI準備度スコアカード",
+    "evaluation": "評価スイート",
+    "searchDemo": "検索統合",
+    "quiz": "文化クイズ",
+    "localization": "モデルローカライゼーション",
+    "bilingual": "バイリンガル評価",
+    "compliance": "コンプライアンスチェッカー",
+    "compare": "モデル比較",
+    "settings": "設定",
+    "language": "言語"
+  },
+  "home": {
+    "hero": {
+      "title": "すべての言語のための主権型AI",
+      "subtitle": "現地の言語と文化を真に理解する言語モデルを評価・ベンチマーク・展開",
+      "cta": "始める",
+      "demo": "デモを見る"
+    },
+    "features": {
+      "title": "プラットフォーム機能",
+      "scorecard": {
+        "title": "AI準備度スコアカード",
+        "description": "対象言語に対する10の主要次元でモデルの能力を評価"
+      },
+      "evaluation": {
+        "title": "評価スイート",
+        "description": "韓国語、日本語、ヒンディー語、アラビア語の文化知識カスタムベンチマーク"
+      },
+      "search": {
+        "title": "検索統合",
+        "description": "LLMがスニペット生成とクエリ理解で検索をどう支援するか確認"
+      },
+      "quiz": {
+        "title": "文化クイズ生成器",
+        "description": "言語別の文化理解度をテストするクイズを自動生成"
+      },
+      "localization": {
+        "title": "モデルローカライゼーション",
+        "description": "ガイド付きワークフローで対象言語向けにベースモデルをファインチューニング"
+      },
+      "bilingual": {
+        "title": "バイリンガル評価",
+        "description": "翻訳、コードスイッチング、混合言語処理能力をテスト"
+      },
+      "compliance": {
+        "title": "コンプライアンスチェッカー",
+        "description": "モデルが国別のデータ主権要件を満たしているか検証"
+      },
+      "compare": {
+        "title": "モデル比較",
+        "description": "現地言語タスクで主権型モデルとグローバルモデルを比較"
+      }
+    },
+    "stats": {
+      "languages": "対応言語",
+      "models": "評価済みモデル",
+      "benchmarks": "ベンチマーク実行回数",
+      "countries": "対応国"
+    }
+  },
+  "scorecard": {
+    "title": "主権型AI準備度スコアカード",
+    "subtitle": "10次元で特定言語に対するモデルの能力を評価",
+    "selectModel": "モデルを選択",
+    "selectLanguage": "対象言語を選択",
+    "runEvaluation": "評価を実行",
+    "overall": "総合スコア",
+    "dimensions": {
+      "fluency": "言語の流暢さ",
+      "grammar": "文法の正確さ",
+      "vocabulary": "語彙の範囲",
+      "cultural": "文化的認識",
+      "idioms": "慣用句の理解",
+      "formality": "敬語レベル",
+      "technical": "専門用語",
+      "creative": "創作文",
+      "reasoning": "論理的推論",
+      "safety": "安全性とバイアス"
+    },
+    "grades": {
+      "excellent": "優秀",
+      "good": "良好",
+      "fair": "普通",
+      "poor": "不十分",
+      "failing": "不合格"
+    }
+  },
+  "evaluation": {
+    "title": "言語評価スイート",
+    "subtitle": "文化・言語知識のカスタムベンチマーク",
+    "selectLanguage": "言語を選択",
+    "categories": "評価カテゴリ",
+    "runBenchmark": "ベンチマーク実行",
+    "results": "結果",
+    "history": "歴史と伝統",
+    "literature": "文学と芸術",
+    "customs": "社会慣習",
+    "cuisine": "食文化",
+    "geography": "地理と場所",
+    "politics": "政治と行政",
+    "religion": "宗教と哲学",
+    "media": "メディアとエンターテインメント",
+    "score": "スコア",
+    "passed": "合格",
+    "failed": "不合格",
+    "total": "総問題数"
+  },
+  "search": {
+    "title": "検索統合デモ",
+    "subtitle": "LLMがスニペット生成とクエリ理解で検索をどう支援するか確認",
+    "placeholder": "検索クエリを入力...",
+    "search": "検索",
+    "queryAnalysis": "クエリ分析",
+    "intent": "検出された意図",
+    "language": "クエリ言語",
+    "entities": "抽出されたエンティティ",
+    "results": "検索結果",
+    "snippet": "AI生成スニペット",
+    "relevance": "関連性スコア",
+    "source": "ソース"
+  },
+  "quiz": {
+    "title": "文化知識クイズ",
+    "subtitle": "文化理解度をテストする自動生成クイズ",
+    "selectLanguage": "文化/言語を選択",
+    "difficulty": "難易度",
+    "easy": "初級",
+    "medium": "中級",
+    "hard": "上級",
+    "generate": "クイズを生成",
+    "question": "問題",
+    "of": "/",
+    "submit": "回答を送信",
+    "next": "次の問題",
+    "results": "クイズ結果",
+    "correct": "正解",
+    "incorrect": "不正解",
+    "score": "あなたのスコア",
+    "tryAgain": "もう一度",
+    "explanation": "解説"
+  },
+  "localization": {
+    "title": "モデルローカライゼーションパイプライン",
+    "subtitle": "ガイド付きワークフローで対象言語向けにベースモデルをファインチューニング",
+    "steps": {
+      "select": "ベースモデル選択",
+      "configure": "対象言語設定",
+      "data": "学習データ準備",
+      "train": "モデルファインチューニング",
+      "evaluate": "結果評価",
+      "deploy": "モデル展開"
+    },
+    "baseModel": "ベースモデル",
+    "targetLanguage": "対象言語",
+    "dataSize": "学習データサイズ",
+    "epochs": "学習エポック数",
+    "learningRate": "学習率",
+    "startTraining": "ファインチューニング開始",
+    "progress": "学習進捗",
+    "status": {
+      "idle": "準備完了",
+      "preparing": "データ準備中...",
+      "training": "学習中...",
+      "evaluating": "評価中...",
+      "complete": "完了",
+      "failed": "失敗"
+    }
+  },
+  "bilingual": {
+    "title": "バイリンガル評価",
+    "subtitle": "翻訳、コードスイッチング、混合言語処理能力をテスト",
+    "sourceLang": "ソース言語",
+    "targetLang": "ターゲット言語",
+    "testTypes": {
+      "translation": "翻訳品質",
+      "codeSwitch": "コードスイッチング",
+      "mixed": "混合言語入力",
+      "cultural": "文化的適応"
+    },
+    "input": "入力テキスト",
+    "output": "モデル出力",
+    "score": "品質スコア",
+    "run": "評価を実行",
+    "metrics": {
+      "bleu": "BLEUスコア",
+      "comet": "COMETスコア",
+      "human": "人間評価"
+    }
+  },
+  "compliance": {
+    "title": "政府コンプライアンスチェッカー",
+    "subtitle": "モデルが国別のデータ主権要件を満たしているか検証",
+    "selectCountry": "国を選択",
+    "selectModel": "モデルを選択",
+    "runCheck": "コンプライアンスチェック実行",
+    "status": {
+      "compliant": "準拠",
+      "partial": "部分準拠",
+      "nonCompliant": "非準拠",
+      "unknown": "不明"
+    },
+    "categories": {
+      "dataResidency": "データ居住地",
+      "privacy": "プライバシー規制",
+      "contentFiltering": "コンテンツフィルタリング",
+      "transparency": "透明性要件",
+      "audit": "監査証跡",
+      "localEntity": "現地法人要件"
+    },
+    "report": "コンプライアンスレポート",
+    "recommendation": "推奨事項"
+  },
+  "compare": {
+    "title": "パフォーマンスダッシュボード",
+    "subtitle": "現地言語タスクで主権型モデルとグローバルモデルを比較",
+    "selectModels": "比較するモデルを選択",
+    "selectTask": "タスクを選択",
+    "tasks": {
+      "qa": "質問応答",
+      "summarization": "要約",
+      "translation": "翻訳",
+      "sentiment": "感情分析",
+      "ner": "固有表現認識",
+      "generation": "テキスト生成"
+    },
+    "metrics": "パフォーマンス指標",
+    "latency": "レイテンシ (ms)",
+    "accuracy": "精度 (%)",
+    "cost": "1Kトークンあたりのコスト",
+    "overall": "総合スコア"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "view": "詳細を見る",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "submit": "送信",
+    "reset": "リセット",
+    "download": "ダウンロード",
+    "export": "エクスポート",
+    "noData": "データがありません",
+    "selectOption": "オプションを選択してください"
+  }
+}
