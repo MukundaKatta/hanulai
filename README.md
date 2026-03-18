@@ -62,6 +62,3 @@ hanulai/
 └── package.json
 ```
 
-## License
-
-MIT
